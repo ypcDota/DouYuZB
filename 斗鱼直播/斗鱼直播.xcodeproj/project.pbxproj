@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F10D10421E19D33500BC6AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10D10411E19D33500BC6AB1 /* AppDelegate.swift */; };
-		F10D10441E19D33500BC6AB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10D10431E19D33500BC6AB1 /* ViewController.swift */; };
 		F10D10471E19D33500BC6AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10D10451E19D33500BC6AB1 /* Main.storyboard */; };
 		F10D10491E19D33500BC6AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10D10481E19D33500BC6AB1 /* Assets.xcassets */; };
 		F10D104C1E19D33600BC6AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10D104A1E19D33600BC6AB1 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		F10D103E1E19D33500BC6AB1 /* 斗鱼直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "斗鱼直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10D10411E19D33500BC6AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F10D10431E19D33500BC6AB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F10D10461E19D33500BC6AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F10D10481E19D33500BC6AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F10D104B1E19D33600BC6AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,77 @@
 		F10D10401E19D33500BC6AB1 /* 斗鱼直播 */ = {
 			isa = PBXGroup;
 			children = (
+				F10D10531E19D51600BC6AB1 /* Classes */,
 				F10D10411E19D33500BC6AB1 /* AppDelegate.swift */,
-				F10D10431E19D33500BC6AB1 /* ViewController.swift */,
 				F10D10451E19D33500BC6AB1 /* Main.storyboard */,
 				F10D10481E19D33500BC6AB1 /* Assets.xcassets */,
 				F10D104A1E19D33600BC6AB1 /* LaunchScreen.storyboard */,
 				F10D104D1E19D33600BC6AB1 /* Info.plist */,
 			);
 			path = "斗鱼直播";
+			sourceTree = "<group>";
+		};
+		F10D10531E19D51600BC6AB1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F10D10541E19D51600BC6AB1 /* Follow */,
+				F10D10551E19D51600BC6AB1 /* Home */,
+				F10D10561E19D51600BC6AB1 /* Lib */,
+				F10D10571E19D51600BC6AB1 /* Live */,
+				F10D10581E19D51600BC6AB1 /* Main */,
+				F10D10591E19D51600BC6AB1 /* Me */,
+				F10D105A1E19D51600BC6AB1 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F10D10541E19D51600BC6AB1 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		F10D10551E19D51600BC6AB1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F10D10561E19D51600BC6AB1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		F10D10571E19D51600BC6AB1 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		F10D10581E19D51600BC6AB1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F10D10591E19D51600BC6AB1 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F10D105A1E19D51600BC6AB1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F10D10441E19D33500BC6AB1 /* ViewController.swift in Sources */,
 				F10D10421E19D33500BC6AB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
