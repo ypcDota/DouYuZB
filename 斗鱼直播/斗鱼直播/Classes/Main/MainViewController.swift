@@ -15,15 +15,15 @@ class MainViewController: UITabBarController {
 
         // 添加自控制器
         // 通过 storyBoard 加载
-        addChildVc(VcName: "Home")
-        addChildVc(VcName: "Live")
-        addChildVc(VcName: "Follow")
-        addChildVc(VcName: "Profile")
+        addChildVc("Home")
+        addChildVc("Live")
+        addChildVc("Follow")
+        addChildVc("Profile")
 
     }
     
     // 添加自控制器 抽取函数
-    private func addChildVc(VcName : String) {
+    fileprivate func addChildVc(_ VcName : String) {
         
         let childVc = UIStoryboard(name: VcName, bundle: nil).instantiateInitialViewController()!
         addChildViewController(childVc)
